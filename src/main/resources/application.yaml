@@ -1,0 +1,11 @@
+quarkus:
+  application:
+    name: simple-app
+  http:
+    port: 8080
+  log:
+    level:
+      quarkus: info
+
+salutation:
+  message: Hello
