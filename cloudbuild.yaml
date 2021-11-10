@@ -4,4 +4,6 @@ steps:
 timeout: 2000s
 images:
   - 'gcr.io/$PROJECT_ID/simple-app'
+options:
+  machineType: E2_HIGHCPU_32
 
