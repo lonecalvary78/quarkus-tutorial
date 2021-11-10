@@ -7,7 +7,6 @@ quarkus:
     level:
       quarkus: info
   native:
-    native-image-xmx: 4096m
     file-encoding: UTF-8
 
 salutation:
