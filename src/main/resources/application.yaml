@@ -6,6 +6,8 @@ quarkus:
   log:
     level:
       quarkus: info
+  native:
+    native-image-xmx: 2048m
 
 salutation:
   message: Hello
