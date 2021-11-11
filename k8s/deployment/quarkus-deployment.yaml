@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: simple-app
-          image: gcr.io/quarkus-tutorial/simple-app:v1.0.16
+          image: gcr.io/quarkus-tutorial/simple-app:v1.0.18
           ports:
             - containerPort: 8080
 
