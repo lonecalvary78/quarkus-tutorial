@@ -8,6 +8,11 @@ quarkus:
       quarkus: info
   native:
     file-encoding: UTF-8
+  banner:
+    enabled: false
+  kubernetes-client:
 
-salutation:
-  message: Hello
+  kubernetes-config:
+    enabled: true
+    config-maps:
+      - simple-app-configmap

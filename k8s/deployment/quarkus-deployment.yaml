@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple-app
+  labels:
+    app: simple-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: simple-app
+  template:
+    metadata:
+      labels:
+        app: simple-app
+    spec:
+      containers:
+        - name: simple-app
+          image: gcr.io/quarkus-tutorial/simple-app:v1.0.13
+          ports:
+            - containerPort: 8080
+
