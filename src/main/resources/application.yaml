@@ -12,5 +12,6 @@ quarkus:
     enabled: false
   kubernetes-config:
     enabled: true
+    namespace: default
     config-maps:
       - simple-app-configmap

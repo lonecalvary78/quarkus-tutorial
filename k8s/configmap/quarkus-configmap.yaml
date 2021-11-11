@@ -3,7 +3,4 @@ kind: ConfigMap
 metadata:
   name: simple-app-configmap
 data:
-  # file-like keys
-  simple-app.yaml: |
-    salutation:
-      message: Hello
+   salutation.message: "Hello"
