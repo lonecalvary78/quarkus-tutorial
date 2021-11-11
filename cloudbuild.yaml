@@ -5,5 +5,5 @@ timeout: 2000s
 images:
   - 'gcr.io/$PROJECT_ID/simple-app:$TAG_NAME'
 options:
-  machineType: N1_HIGHCPU_8
+  machineType: N1_HIGHCPU_32
 
