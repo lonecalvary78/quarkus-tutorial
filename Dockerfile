@@ -6,7 +6,7 @@ USER quarkus
 WORKDIR /code
 RUN ./mvnw -B org.apache.maven.plugins:maven-dependency-plugin:3.1.2:go-offline
 COPY src /code/src
-RUN ./mvnw -DskipTests -Dquarkus.native.native-image-xmx=8192m package -Pnative
+RUN ./mvnw -DskipTests -Dquarkus.native.native-image-xmx=2048m package -Pnative
 
 FROM registry.access.redhat.com/ubi8/ubi-minimal
 WORKDIR /work/
