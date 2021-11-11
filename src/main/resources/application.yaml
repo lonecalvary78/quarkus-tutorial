@@ -10,8 +10,6 @@ quarkus:
     file-encoding: UTF-8
   banner:
     enabled: false
-  kubernetes-client:
-
   kubernetes-config:
     enabled: true
     config-maps:
